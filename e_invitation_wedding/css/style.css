@@ -42,16 +42,12 @@ img { display: block; max-width: 100%; }
 .temple-bg {
   background:
     linear-gradient(120deg, rgba(39, 8, 15, .78), rgba(2, 52, 1, 0.681)),
-    url('../assets/temple-entrance.jpg') center/cover no-repeat,
+    url('../assets/temple-bg.jpg') center/cover no-repeat,
     var(--royal-deep);
 }
 .hero {
   min-height: 100svh; display: grid; place-items: center; padding: 38px 20px;
   position: relative; isolation: isolate; text-align: center;
-}
-.hero::before {
-  content: ''; position: absolute; inset: 15px; border: 1px solid rgba(234,215,165,.78);
-  outline: 1px solid rgba(201,164,92,.35); outline-offset: 6px; pointer-events: none;
 }
 .hero::after {
   content: '❧'; position: absolute; bottom: 34px; left: 50%; transform: translateX(-50%);
