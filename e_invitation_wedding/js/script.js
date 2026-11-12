@@ -12,7 +12,7 @@ const WEDDING = {
     groom: "Groom Name",
 
     // Cambodia local time (UTC+7)
-    date: "2026-12-20T17:00:00+07:00",
+    date: "2027-11-01T17:00:00+07:00",
 
     venue: "Your Wedding Venue",
     address: "Add your full venue address, Siem Reap, Cambodia",
