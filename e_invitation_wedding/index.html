@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#641b25">
+  <title>Royal Khmer Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Serif+Khmer:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Replace assets/temple-entrance.jpg with your chosen temple entrance background. -->
+  <div class="envelope-screen" id="envelopeScreen">
+    <div class="envelope-scene">
+      <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="letter">
+          <span>With love, we invite you to</span>
+          <strong>Our Wedding</strong>
+          <span id="letterNames">Bride & Groom</span>
+        </div>
+        <div class="envelope-front"></div>
+        <div class="envelope-flap"></div>
+        <div class="wax-seal">♥</div>
+      </div>
+      <button class="primary-btn" id="openInvitation">Open Invitation</button>
+      <div class="open-hint">A BEAUTIFUL JOURNEY BEGINS HERE</div>
+    </div>
+  </div>
+
+  <header class="hero temple-bg" id="home">
+    <div class="hero-card">
+      <div class="royal-mark" aria-hidden="true">✥</div>
+      <div class="eyebrow">Together with the blessings of our families</div>
+      <div class="gold-rule"></div>
+      <div class="subtitle">Joyfully invite you to celebrate</div>
+      <h1>Our Wedding</h1>
+      <div class="subtitle" id="heroDate">Saturday · 20 December 2026</div>
+      <div class="gold-rule"></div>
+      <a class="primary-btn" href="#couple" style="display:inline-block;text-decoration:none">Discover Our Story</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION 1: Couple names and countdown -->
+    <section class="section paper-section" id="couple">
+      <div class="section-inner reveal">
+        <div class="names">
+          <div class="small">Two hearts · One beautiful promise</div>
+          <h2><span id="brideName">Bride Name</span><br><span class="amp">&</span><br><span id="groomName">Groom Name</span></h2>
+          <div class="date-line" id="weddingDateText">20 · 12 · 2026</div>
+          <div class="gold-rule"></div>
+          <p class="section-intro">With the blessings of our families, we begin our forever. We would be honoured to have you with us on our special day.</p>
+        </div>
+        <div class="section-kicker">Counting down to forever</div>
+        <div class="countdown" aria-label="Wedding countdown">
+          <div class="time-box"><strong id="days">000</strong><span>Days</span></div>
+          <div class="time-box"><strong id="hours">00</strong><span>Hours</span></div>
+          <div class="time-box"><strong id="minutes">00</strong><span>Minutes</span></div>
+          <div class="time-box"><strong id="seconds">00</strong><span>Seconds</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Love story -->
+    <section class="section" id="story">
+      <div class="section-inner">
+        <div class="section-kicker">A story written in the stars</div>
+        <h2 class="section-title">Our Love Story</h2>
+        <p class="section-intro">Every love story is beautiful, but ours is our favourite. Here are a few moments that brought us to this day.</p>
+        <div class="story-grid reveal">
+          <div class="story-photo" role="img" aria-label="Replace with a favourite couple photograph"></div>
+          <div class="story-copy">
+            <h3>From Hello to Forever</h3>
+            <p>What began as a simple meeting became a journey filled with laughter, kindness, adventures and countless memories. Through every season, we found a home in each other.</p>
+            <div class="timeline">
+              <div class="timeline-item"><strong>THE FIRST HELLO · 2021</strong><p>The day our paths crossed and a new chapter began.</p></div>
+              <div class="timeline-item"><strong>OUR FIRST ADVENTURE · 2022</strong><p>Making memories, discovering new places and growing together.</p></div>
+              <div class="timeline-item"><strong>THE PROMISE · 2025</strong><p>A promise to choose each other, today and always.</p></div>
+              <div class="timeline-item"><strong>FOREVER BEGINS · 2026</strong><p>Celebrating our wedding with the people we love most.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Pre-wedding gallery -->
+    <section class="section paper-section" id="gallery">
+      <div class="section-inner reveal">
+        <div class="section-kicker">Moments we keep forever</div>
+        <h2 class="section-title">Pre-Wedding Gallery</h2>
+        <p class="section-intro">A little collection of our favourite memories. Replace these sample photographs with your pre-wedding pictures.</p>
+        <div class="gallery">
+          <figure><img src="assets/prewedding-1.jpg" alt="Pre-wedding photograph 1" onerror="this.style.opacity='.25';this.alt='Add assets/prewedding-1.jpg'"></figure>
+          <figure><img src="assets/prewedding-2.jpg" alt="Pre-wedding photograph 2" onerror="this.style.opacity='.25';this.alt='Add assets/prewedding-2.jpg'"></figure>
+          <figure><img src="assets/prewedding-3.jpg" alt="Pre-wedding photograph 3" onerror="this.style.opacity='.25';this.alt='Add assets/prewedding-3.jpg'"></figure>
+          <figure><img src="assets/prewedding-4.jpg" alt="Pre-wedding photograph 4" onerror="this.style.opacity='.25';this.alt='Add assets/prewedding-4.jpg'"></figure>
+          <figure><img src="assets/prewedding-5.jpg" alt="Pre-wedding photograph 5" onerror="this.style.opacity='.25';this.alt='Add assets/prewedding-5.jpg'"></figure>
+          <figure><img src="assets/prewedding-6.jpg" alt="Pre-wedding photograph 6" onerror="this.style.opacity='.25';this.alt='Add assets/prewedding-6.jpg'"></figure>
+        </div>
+        <p class="gallery-note">With love, from our journey to yours.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Venue and Google Maps -->
+    <section class="section" id="venue">
+      <div class="section-inner reveal">
+        <div class="section-kicker">We cannot wait to celebrate with you</div>
+        <h2 class="section-title">Join Our Celebration</h2>
+        <div class="venue-card">
+          <div class="venue-copy">
+            <div class="section-kicker" style="text-align:left">The Wedding Venue</div>
+            <h3 id="venueName">Your Wedding Venue</h3>
+            <p id="venueAddress">Add the full venue address here, including city and country.</p>
+            <p><strong id="venueDate">20 December 2026</strong><br><span id="venueTime">Ceremony begins at 5:00 PM</span></p>
+            <div><a class="outline-btn" id="mapLink" href="https://www.google.com/maps" target="_blank" rel="noopener">Open Google Maps</a></div>
+          </div>
+          <div class="map-container">
+            <iframe class="map-frame" id="mapFrame" title="Wedding venue map" loading="lazy"
+              src="https://www.google.com/maps?q=Angkor%20Wat%2C%20Siem%20Reap%2C%20Cambodia&output=embed"
+              referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: ABA Pay QR -->
+    <section class="section paper-section" id="gift">
+      <div class="section-inner reveal">
+        <div class="section-kicker">Your presence is our greatest gift</div>
+        <h2 class="section-title">Wedding Gift</h2>
+        <p class="section-intro">If you wish to send a gift, you may use the ABA QR code below. Thank you for your love and blessings.</p>
+        <div class="qr-wrap">
+          <div class="qr-placeholder" id="qrPreview">
+            <div><div style="font-size:48px">♡</div><strong>ABA PAY QR CODE</strong><br><small>Add your QR image below</small></div>
+          </div>
+          <p>Thank you for celebrating this special day with us.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: Closing -->
+    <footer class="footer">
+      <div class="footer-ornament" aria-hidden="true">❧ ✦ ❧</div>
+      <div class="thanks">Thank You</div>
+      <p>We look forward to sharing our happiest day with you.</p>
+      <div class="gold-rule"></div>
+      <div id="footerNames">Bride Name & Groom Name</div>
+      <p style="font-size:12px;letter-spacing:.15em">WITH LOVE · ALWAYS</p>
+    </footer>
+  </main>
+
+  <audio id="weddingMusic" loop preload="auto">
+    <!-- Put your music file at assets/wedding-song.mp3, or upload one using the music button. -->
+    <source src="assets/wedding-song.mp3" type="audio/mpeg">
+  </audio>
+  <label class="music-control" id="musicButton" title="Play or pause wedding music" aria-label="Play or pause wedding music">♫</label>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
